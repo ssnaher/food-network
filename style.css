@@ -2,6 +2,38 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color:rgb(238, 135, 39) ;
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 20px;
+    font-family: 'Anton', sans-serif;
+}
+.logo span{
+    color:#FB3832;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 0 20px;
+}
+.menu a{
+    text-decoration: none;
+    color:rgb(238, 135, 39) ;
+    font-size: 20px;
+    font-weight: 700;
+}
+.menu a:hover{
+    color:#FB3832;
+
+
+}
 
 .skip-color{
     color: #FB874E;
@@ -87,7 +119,7 @@ h2{
     justify-content: space-evenly;
 }
 .card{
-    box-shadow: 20px 20px 50px rgb(160, 159, 159);
+    box-shadow: 10px 10px 40px rgb(160 159 159);
     width: 28%;
     padding: 20px;
     border-radius: 5%;
@@ -115,7 +147,7 @@ h2{
 .counting-section{
     padding-top: 50px;
     padding-bottom: 70px;
-    box-shadow:20px 20px 50px gray ;
+    box-shadow:10px 10px 40px rgb(160 159 159);
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
@@ -132,4 +164,49 @@ h2{
 }
 .count span{
     font-size: 20px;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+input, textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 400px;
+    font-size: 20px;
+    padding: 10px 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.contact-us{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#submit{
+    padding: 10px 30px;
+    margin-top: 40px;
+    background-color: #D7000B;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 40px 0;
+}
+footer h2{
+    font-weight: 700;
+}
+footer p{
+    font-size: 20px;
+    color: white;
+}
+#food{
+    color:#c05157;
 }

@@ -6,14 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Network</title>
+    <link rel="shortcut icon" href="images/Project Cover5.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <!-- Header Section Start -->
+    <header>
+        <div class="logo">food<span>Net</span> </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#recipe">My Recipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Banner Section Start -->
     <section class="banner-container">
         <div class="half-width">
 
@@ -26,7 +43,10 @@
         <div class="half-width"><img src="images/Group 8425.png" alt=""></div>
 
     </section>
-    <section class="about-container">
+    <!-- Banner Section End -->
+
+    <!-- About Section Start -->
+    <section class="about-container" id="about">
         <div id="about-image" class="half-width "><img src="images/Person Image.png" alt=""></div>
         <div class="half-width about-content">
             <h2>About Me</h2>
@@ -36,7 +56,10 @@
             <a class="link-button" href="#">Contact Me</a>
         </div>
     </section>
-    <section class="recipe-section">
+    <!-- About Section End -->
+
+    <!-- Recipe Section Start -->
+    <section class="recipe-section" id="recipe">
         <h2 class="recipe-title">My Recipes</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo eius optio in incidunt aliquam eligendi
             esse, dicta pariatur repellat odio tenetur magnam corrupti quidem voluptates tempora. Sint rem est omnis.
@@ -44,27 +67,37 @@
         <div class="card-container">
             <div class="card">
                 <img src="images/Project Cover1.jpg" alt="">
-                <h3>Recipe Title</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente esse laborum beatae,
-                    laboriosam ex facere aut! Dolorem voluptas exercitationem aperiam iste consequatur ad nesciunt,
-                    tempora fugiat doloremque quam dicta?</p>
+                <h3>Beef Cashewnut Salad</h3>
+                <p>A robust, filling salad, ideal for a warm summers day or evening. The secret lies in cooking the meat
+                    correctly, therefore do read the instructions carefully. Season the steaks with Chilli & Garlic
+                    Seasoning, drizzle and turn in olive oil.
+                    Leave at room temperature for 20-30 minutes (the Chef’s term for this is ‘tempering the meat’, it
+                    ensures flavour absorbance and even cooking.)
+                </p>
             </div>
             <div class="card">
                 <img src="images/Project Cover.png" alt="">
-                <h3>Recipe Title</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente esse laborum beatae,
-                    laboriosam ex facere aut! Dolorem voluptas exercitationem aperiam iste consequatur ad nesciunt,
-                    tempora fugiat doloremque quam dicta?</p>
+                <h3>Dessert</h3>
+                <p>Dessert is a course that concludes a meal. The course consists of sweet foods, such as
+                    confections, and possibly a beverage such as dessert wine and liqueur. In some parts of the world,
+                    such as much of central and western Africa, and most parts of China, there is no tradition of a
+                    dessert course to conclude a meal.</p>
             </div>
             <div id="third-image" class="card">
                 <img src="images/Project Cover5.png" alt="">
-                <h3>Recipe Title</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente esse laborum beatae,
-                    laboriosam ex facere aut! Dolorem voluptas exercitationem aperiam iste consequatur ad nesciunt,
-                    tempora fugiat doloremque quam dicta?</p>
+                <h3>Fruit Salad</h3>
+                <p>The perfect fruit salad for a backyard bbq or any occasion. There are never leftovers! This is one of
+                    my favorite fruit salad recipes, as I think the sauce really makes it. This salad is tastier the
+                    longer you can let it soak in its juices. I prefer 3 to 4 hours in the refrigerator before I serve
+                    it. Pour the cooled sauce over the fruit. Cover and refrigerate for 3 to 4 hours before serving.
+
+                </p>
             </div>
         </div>
     </section>
+    <!-- Recipe Section End -->
+
+    <!-- Counting Section Start -->
     <section class="counting-section">
         <div class="count">
             <p>700k</p>
@@ -79,9 +112,35 @@
             <span>Dribbble Shot Likes</span>
         </div>
     </section>
-    <section class="contact-us">
+    <!-- Counting Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact-us" id="contact">
+
+        <div class="contact-image">
+            <img src="images/gmail-envelope-icon-7.jpg" alt="">
+
+        </div>
+        <div class="contact">
+            <!-- <h2>Leave your message</h2> -->
+            <!-- <label for="name">Name</label><br> -->
+            <input type="text" placeholder="Name"><br>
+            <!-- <label for="email">Email</label><br> -->
+            <input type="email" placeholder="Email"><br>
+            <!-- <label for="message">Message</label><br> -->
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave Your Message"></textarea><br>
+            <a id="submit" class="link-button" href="#">Submit</a>
+
+        </div>
 
     </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer>
+        <h2> <span id="food">Food</span> Network</h2>
+        <p>Your diet is a bank account. Good food choices are good investments</p>
+    </footer>
 
 
 </body>
