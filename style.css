@@ -6,7 +6,8 @@ body{
 .skip-color{
     color: #FB874E;
 }
-.flexible-container{
+.banner-container{
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
 }
@@ -16,11 +17,11 @@ body{
    
 }
 h1{
-    font-size: 88px;
+    font-size: 80px;
     color: #575757;
     font-weight: 900;
 }
-p{
+.banner-container p{
     font-size: 20px;
     color: #575757;
     font-weight: 500;
@@ -34,7 +35,101 @@ p{
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
+    align-self: flex-start;
 }
 .half-width img{
     width: 80%;
+}
+.about-container{
+    display: flex;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 50px;
+}
+h2{
+    color: #707070;
+    font-size: 50px;
+    font-weight: 900;
+}
+.about-container p{
+    width: 50%;
+}
+#about-image{
+    display: flex;
+    justify-content: center;
+}
+ .about-content{ 
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    justify-content: center;
+} 
+.about-content p{
+    margin-bottom: 80px;
+}
+
+#about-image img{
+    margin-top: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+.recipe-title{
+    text-align: center;
+}
+.recipe-section p{
+    text-align: center;
+    padding: 0 25% ;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    box-shadow: 20px 20px 50px rgb(160, 159, 159);
+    width: 28%;
+    padding: 20px;
+    border-radius: 5%;
+}
+.card h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.card img{
+    height: 450px;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 5%;
+}
+.card p{
+    text-align: left;
+    padding: 0;
+    font-size: 20px;
+    line-height: 40px;
+    word-spacing: 1px;
+}
+#third-image{
+   border-radius: 5%;
+}
+.counting-section{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    box-shadow:20px 20px 50px gray ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.count{
+    text-align: center;
+
+}
+.count p{
+   font-size: 60px;
+   font-weight: 700;
+   margin-bottom: 0;
+}
+.count span{
+    font-size: 20px;
 }
